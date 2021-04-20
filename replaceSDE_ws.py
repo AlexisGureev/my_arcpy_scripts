@@ -1,7 +1,7 @@
 # coding=utf-8
 import  arcpy
 
-lyrName=r'Тектоничес\кая карта\BASEA_KRAP_noflds_q'
+lyrName=r'Тектоничес\кая карта\TK2500.BASEA'
 wsNew=r'Database Connections\gdb2012ks2_work_TEST.sde'
 
 lyr=arcpy.mapping.Layer(lyrName)
